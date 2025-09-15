@@ -1,0 +1,43 @@
+.container {
+  background-color: #e7cee9;
+}
+
+/* Updated card container for responsive design */
+.card-container {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 100%;
+}
+
+/* Responsive adjustments for desktop */
+@media (min-width: 768px) {
+  .card-container {
+    padding: 32px;
+    gap: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-container {
+    padding: 48px;
+    gap: 48px;
+  }
+}
+
+.line {
+  color: #8134af;
+}
+
+body {
+  color: #999999;
+  font-family: "Roboto", sans-serif;
+}
