@@ -54,4 +54,4 @@ Build for production:
 npm run build
 
 🌐 Deployment
-Deployed on Vercel 👉 Live Link: https://desktop-mobile-dashboard.vercel.app/
+Deployed on Vercel 👉 Live Link: https://mobile-desktop-dashboard.vercel.app/
